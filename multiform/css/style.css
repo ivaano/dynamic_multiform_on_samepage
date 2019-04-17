@@ -1,0 +1,114 @@
+@charset "utf-8";                                                                                                             
+/* CSS Document */
+ 
+ 
+body{
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-color:#fff;
+    color:#303030;
+    margin:0px;
+}
+
+.main_box{
+    width:940px; margin-left:auto; margin-right:auto;
+}  
+
+.page_content{ 
+    margin-top:20px;
+	background: #fff;
+} 
+
+.left_block_box{
+     border:#cfcfcf solid 1px; 
+	padding:5px;
+	vertical-align: top;
+	text-align: left;
+	float: left;
+	width: 280px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.left_block_title{
+    background-color:#015367; 
+	padding:10px; 
+	font-size:14px; 
+	font-weight:bold; 
+	color:#fff;
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+} 
+
+.right_block_box{
+    border:#cfcfcf solid 1px; padding:1px;
+	float: right;
+	width: 620px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 5px;
+} 
+.right_block_title{
+    background-color:#206676;
+	padding:10px; 
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+} 
+
+
+.pointer {   
+    cursor: pointer;
+} 
+
+.stepSelected {
+	background-color: #04819e;
+	color: #fff;
+}
+
+h2 {
+	font: 24px Trebuchet MS, Arial, sans-serif;
+	color: #c60;
+	padding: 5px 0px 15px 0px;
+}
+
+td.formStep{
+    vertical-align:top;
+    border-bottom:#cfcfcf solid 1px;
+    padding:5px;
+} 
+
+td.stepEdit{
+    padding-left:6px;vertical-align:top;
+    border-bottom:#cfcfcf solid 1px;
+    padding:5px;
+	text-align: right;
+} 
+
+#edit_step_box {
+	margin: 5px;
+}
+
+.multiform_part {
+	padding: 10px;
+}
+
+#form_step_nav_wrap {
+	padding: 10px;
+}
+
+#form_step_nav {
+	position: relative; height: 30px;
+}
+
+#form_step_left {
+	position: absolute; left: 0pt; width: 50%; text-align: left;
+}
+
+#form_step_right {
+	position: absolute; right: 0pt; width: 50%; text-align: right;
+}
